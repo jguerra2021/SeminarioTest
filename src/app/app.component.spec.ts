@@ -37,7 +37,7 @@ describe(`(1) TEST del componente "AppComponent"`, () => {
     fixture.detectChanges() //TODO: <---------------
 
     const email = app.form.controls['email']
-    email.setValue('leifer33@gmail.com')
+    email.setValue('jguerra@gmail.com')
 
     expect(app.form.invalid).toBeTrue(); //TODO: ✔
   });
@@ -49,11 +49,11 @@ describe(`(1) TEST del componente "AppComponent"`, () => {
 
     let email = app.form.controls['email']
     let password = app.form.controls['password']
-    let result = app.form.controls['result']
+    
 
-    email.setValue('leifer33@gmail.com')
+    email.setValue('jguerra@gmail.com')
     password.setValue('123456')
-    result.setValue('1')
+    
 
 
     expect(app.form.invalid).toBeFalse(); //TODO: ✔

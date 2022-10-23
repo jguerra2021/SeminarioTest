@@ -22,7 +22,7 @@ describe('(3) Prueba a "AuthService"', () => {
     //TODO: Mock de datos!
 
     const mockUserCredentials = { //TODO: Exito!
-      email: 'leifer33@gmail.com',
+      email: 'jguerra@gmail.com',
       password: '123456'
     }
 
@@ -51,7 +51,7 @@ describe('(3) Prueba a "AuthService"', () => {
     //TODO: Mock de datos!
 
     const mockUserCredentials = {
-      email: 'leifer33@gmail.com',
+      email: 'jguerra@gmail.com',
       password: ''
     }
 
